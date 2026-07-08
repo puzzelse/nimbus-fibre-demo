@@ -43,6 +43,8 @@ The Puzzel chat widget loader is embedded unmodified at the bottom of `index.htm
 
 Customer ID `99206` was supplied by William for this demo instance. No other Puzzel Widget API customisation has been made.
 
+**Known issue:** on first deploy, the widget script loads but the console logs `pzl_loader abort bootstrap (no matching site found, or in active debug mode)`. This means the Puzzel Admin "site" configuration for customer `99206` does not currently list `https://puzzelse.github.io` (or this specific repo path) as an allowed site. Add this domain to the widget's site/domain allow-list in Puzzel Admin to make the bubble appear.
+
 ### Backend / live data
 None — this is a static site with no server-side component. Suitable for GitHub Pages hosting as-is.
 
