@@ -1,15 +1,15 @@
-# Nimbus Fibre — Demo Website
+# Quickline — Demo Website
 
 This repo contains a fictional broadband/internet provider demo site used for Puzzel sales demos. It is **not** branded as Puzzel — it's a generic vertical demo (internet service provider) with the Puzzel chat widget embedded live on the page, so a chat demo can be run as if it were happening on a real customer's website.
 
 ---
 
-## Site: Nimbus Fibre (`index.html`)
+## Site: Quickline (`index.html`)
 
 **Built:** 8 July 2026 · **Live URL:** https://puzzelse.github.io/nimbus-fibre-demo/
 
 ### What it represents
-A single-page marketing site for "Nimbus Fibre," a fictional UK full-fibre broadband provider. It's the first of what may become a small set of vertical demo sites (e.g. broadband/telco, then other verticals) that William can use to run chat demos in a realistic customer-website context, rather than a bare test page.
+A single-page marketing site for "Quickline," a fictional UK full-fibre broadband provider. It's the first of what may become a small set of vertical demo sites (e.g. broadband/telco, then other verticals) that William can use to run chat demos in a realistic customer-website context, rather than a bare test page.
 
 ### Purpose
 Not tied to a specific deal — this is a reusable, generic demo environment. The goal is a page that looks like a real, polished consumer broadband site (hero, plans/pricing, features, coverage checker, testimonials, FAQ) with the Puzzel chat widget sitting live in the corner, so prospects can see chat working in a realistic, branded-but-not-Puzzel-branded setting.
