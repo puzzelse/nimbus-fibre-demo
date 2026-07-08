@@ -43,7 +43,7 @@ The Puzzel chat widget loader is embedded unmodified at the bottom of `index.htm
 
 Customer ID `99206` was supplied by William for this demo instance. No other Puzzel Widget API customisation has been made.
 
-**Known issue:** on first deploy, the widget script loads but the console logs `pzl_loader abort bootstrap (no matching site found, or in active debug mode)`. This means the Puzzel Admin "site" configuration for customer `99206` does not currently list `https://puzzelse.github.io` (or this specific repo path) as an allowed site. Add this domain to the widget's site/domain allow-list in Puzzel Admin to make the bubble appear.
+**Note:** on first deploy (brand name "Nimbus Fibre"), the console logged `pzl_loader abort bootstrap (no matching site found, or in active debug mode)` and the bubble didn't appear. After renaming the site to "Quickline", the widget bootstrapped correctly and greeted the visitor with pre-built "Quickline — Broadband built for you" branded content from customer `99206`'s own bot config. This confirms customer `99206`'s Puzzel Admin site-matching is tied to the "Quickline" name/branding specifically — keep the site named Quickline for this chat demo to keep working, or check with the Puzzel Admin config owner before renaming again.
 
 ### Backend / live data
 None — this is a static site with no server-side component. Suitable for GitHub Pages hosting as-is.
