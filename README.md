@@ -43,7 +43,7 @@ The Puzzel chat widget loader is embedded unmodified at the bottom of `index.htm
 
 Customer ID `99206` was supplied by William for this demo instance. No other Puzzel Widget API customisation has been made.
 
-**Note:** on first deploy (brand name "Nimbus Fibre"), the console logged `pzl_loader abort bootstrap (no matching site found, or in active debug mode)` and the bubble didn't appear. After renaming the site to "Quickline", the widget bootstrapped correctly and greeted the visitor with pre-built "Quickline — Broadband built for you" branded content from customer `99206`'s own bot config. This confirms customer `99206`'s Puzzel Admin site-matching is tied to the "Quickline" name/branding specifically — keep the site named Quickline for this chat demo to keep working, or check with the Puzzel Admin config owner before renaming again.
+**Note:** on the very first deploy, the console logged `pzl_loader abort bootstrap (no matching site found, or in active debug mode)` and the bubble didn't appear. This turned out to be a one-off propagation delay (likely on Puzzel Admin's site-matching or GitHub Pages' CDN), not something tied to the brand name on the page — the widget has since bootstrapped correctly under both "Quickline" and "Nimbus Fibre", each time greeting the visitor with the same pre-built "Quickline — Broadband built for you" branded bot content from customer `99206`'s config (the bot's own branding doesn't follow the page's brand name — that's expected, since it's a separate config in Puzzel Admin).
 
 ### Backend / live data
 None — this is a static site with no server-side component. Suitable for GitHub Pages hosting as-is.
